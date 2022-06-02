@@ -1,0 +1,23 @@
+app_login    > para acessar o sistema.
+
+app_Usuarios > informações do cara que vai acessar o sistema.
+	app_sexo > sexo do usuario se é femino ou masculino.
+	app_cidades > cidades.
+	app_estados > estados.
+	app_pais > pais.
+	
+
+app_Jogos    > aonde vai pesquisar os jogos disponiveis.
+	app_campos > vai ser os campos cadastrados para jogos.	
+
+app_alugueis > vai mostrar a descrição de como o cara(goleiroi ou time) jogou se reclama mt ou não e ira dar uma nota.
+
+app_tipo_usuarios > essa tabela vai ser cadastrada o tipo de pessoa que estamos procurando se estou um time ou um goleiro exemplo.
+
+
+app_tipo_inscricao > ????
+
+Sobre o sistema:
+O sistema "Aluguel de goleiro" vai servir para fazer uma busca de goleiros seja ele procurando um jogo ou até mesmo um time procurando um goleiro.
+
+E tambem vai ter um diferencial aonde cadastrar um local para jogos e mostrar datas disponoveis para jogos até mesmo marcar jogo.(ver se seria possivel)

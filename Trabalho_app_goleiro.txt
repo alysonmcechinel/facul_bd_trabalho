@@ -1,0 +1,56 @@
+TABELA LOGIN
+Id_Usuario
+email
+senha
+
+TABELA TIPO_USUARIO
+Id_usuario
+Id_tipo(1-Goleiro / 2-Time)
+
+TABELA CIDADE
+Id_cidade
+Nome
+Estado
+
+TABELA PAIS
+Id_Pais
+nome
+
+TABELA SEXO
+Id_sexo
+
+TABELA USUARIO
+Id_usuario
+nome
+tipoUsuario(vai buscar na TIPO_USUARIO)
+bairro
+Endereço
+Id_cidade(Tabela cidade)
+Id_Pais (Tabela Pais)
+Id_Sexo(Tabela sexo)
+Numero_Endereco
+
+TABELA JOGO
+Id_jogo
+Id_Campo(TABELA CAMPO)
+Tipo_busca(TIPO_USUARIO)
+
+
+TABELA CAMPO
+Id_Campo
+Endereco
+Numero_Endereco
+Cep
+Complemento
+Id_cidade(Tabela cidade)
+Id_Pais (Tabela Pais)
+
+*************************************************************************************
+TABELA DE USUARIO
+
+TABELA DE LOCAIS (CAMPOS)
+TABELA DE CARTEIRA(SALDO)
+TABELA DE TIMES
+TABELA DE HISTORICO DE ALUGUEIS
+TABELA DE MELHORES GOLEIROS
+TABELA DE RESENHAS (COMENTÁRIOS SOBRE O GOLEIRO)
